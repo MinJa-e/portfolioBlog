@@ -6,9 +6,9 @@
     </div>
 
     <b-navbar-nav style="font-size:14px;">
-        <b-nav-item href="#" class="mj-nav-item-margin">Home</b-nav-item>
+        <b-nav-item href="home" class="mj-nav-item-margin">Home</b-nav-item>
 
-        <b-nav-item href="#" class="mj-nav-item-margin">Portfolio</b-nav-item>
+        <b-nav-item href="portfolio" class="mj-nav-item-margin">Portfolio</b-nav-item>
 
         <b-nav-item href="#" class="mj-nav-item-margin">Projects</b-nav-item>
 
@@ -89,6 +89,7 @@
 </div>
 </template>
 
+
 <script>
 export default {
   name: "layoutHeader",
@@ -130,6 +131,7 @@ export default {
     }
   }
 </script>
+
 
 <style>
 .mj-nav-item-margin{
