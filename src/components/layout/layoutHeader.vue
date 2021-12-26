@@ -2,7 +2,7 @@
 <header>
   <b-navbar type="dark" variant="dark" class="d-flex justify-content-between col px-4 shadow-lg" style="height:6vh;min-height:32px;">
     <b-col cols="2">
-    <b-navbar-brand href="portfolio">logo</b-navbar-brand>
+    <b-navbar-brand href="home">logo</b-navbar-brand>
     </b-col>
 
     <b-navbar-nav style="font-size:14px;">

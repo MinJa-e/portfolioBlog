@@ -1,130 +1,25 @@
 <template>
   <div class="w-100" id="portfolio">
-    <div class="text-center w-100" id="whoIsMe">
-      <h1 class="py-5" style="font-family: 'Black Han Sans','Noto Sans KR', sans-serif;">
-        Who is me?
-      </h1>
-<!-- 
-  아이콘 참고용
-person-fill
-사람
-emoji-laughing 
-웃는 이모티콘
--->
-        <b-row style="min-width:560px;max-width:894px;margin:0 auto 60px auto ;">
-          <!-- 문법 예시 <b-col cols="8" md="auto"> https://bootstrap-vue.org/docs/components/layout#layout-and-grid-system -->
-          <b-row style="margin-bottom: 12px!important;"><!--사진12 40-->
-            <b-col cols="3"><img src="../assets/증명사진흰정사각형.jpg" class="rounded-circle w-100 m-auto" style="
-            border: 2.9px solid hsl(0deg 0% 0% / 30%);box-shadow: rgb(0 0 0 / 65%) 0px 0px 16px 0px;min-width:112px;max-width:168px;"></b-col>
-            <b-col>
-            <b-row class="pb-4 justify-content-center"><!--프로필 첫째 줄-->
-              <b-col>
-                <h4 class="fw-bold"><b-icon icon="emoji-laughing" style="width: 24px; height: 24px;"></b-icon>이름</h4>
-                <div></div>
-                <p>이민재</p>
-              </b-col>
-              <b-col>
-                <h4 class="fw-bold"><b-icon icon="emoji-laughing" style="width: 24px; height: 24px;"></b-icon>생년월일</h4>
-                <div></div>
-                <p>1995.10.14</p>
-              </b-col>
-            </b-row>
-            <b-row class="pb-4 justify-content-md-center"><!--프로필 둘째 줄-->
-              <b-col>
-                <h4 class="fw-bold"><b-icon icon="emoji-laughing" style="width: 24px; height: 24px;"></b-icon>이메일</h4>
-                <div></div>
-                <p>leeniesta@naver.com</p>
-              </b-col>
-              <b-col>
-                <h4 class="fw-bold"><b-icon icon="emoji-laughing" style="width: 24px; height: 24px;"></b-icon>거주지</h4>
-                <div></div>
-                <p>부산광역시 해운대구 반여1동</p>
-              </b-col>
-              <!-- <b-col>
-                <h4 class="fw-bold"><b-icon icon="emoji-laughing" style="width: 24px; height: 24px;"></b-icon>생년월일</h4>
-                <div></div>
-                <p>1995.10.14</p>
-              </b-col>
-              <b-col>
-                <h4 class="fw-bold"><b-icon icon="emoji-laughing" style="width: 24px; height: 24px;"></b-icon>이메일</h4>
-                <div></div>
-                <p>leeniesta@naver.com</p>
-              </b-col> -->
-            </b-row>
-            </b-col>
-          </b-row>
-          <b-row><!--간략소개-->
-  <!-- Using value -->
-  <b-button v-b-toggle="'collapse-2'">간략소개</b-button>
-
-  <!-- Element to collapse -->
-  <b-collapse id="collapse-2">
-    <b-card>
-<p class="mb-0">
-안녕하세요!<br>
-헬로!
-</p>
-      </b-card>
-  </b-collapse>
-          </b-row>
-        </b-row>
-<!-- 
-이름
-생년월일
-카카오톡
-이메일
-주소
-간략소개
- -->
-    </div>
-    <div class="text-center w-100" id="skills">
-      <h1 class="py-5" style="font-family: 'Black Han Sans','Noto Sans KR', sans-serif;">
-        Skills
-      </h1>
-        <b-row style="min-width:560px;max-width:894px;margin:0 auto;">
-          <!-- 문법 예시 <b-col cols="8" md="auto"> https://bootstrap-vue.org/docs/components/layout#layout-and-grid-system -->
-          skills
-        </b-row>
-    </div>
-    <div class="text-center w-100" id="Projects">
-      <h1 class="py-5" style="font-family: 'Black Han Sans','Noto Sans KR', sans-serif;">
-        Projects
-      </h1>
-        <b-row style="min-width:560px;max-width:894px;margin:0 auto;">
-          <!-- 문법 예시 <b-col cols="8" md="auto"> https://bootstrap-vue.org/docs/components/layout#layout-and-grid-system -->
-          Projects
-        </b-row>
-    </div>
-    <div class="text-center w-100" id="FAQ">
-      <h1 class="py-5" style="font-family: 'Black Han Sans','Noto Sans KR', sans-serif;">
-        FAQ
-      </h1>
-        <b-row style="min-width:560px;max-width:894px;margin:0 auto;">
-          <!-- 문법 예시 <b-col cols="8" md="auto"> https://bootstrap-vue.org/docs/components/layout#layout-and-grid-system -->
-          FAQ
-        </b-row>
-    </div>
-    <div class="text-center w-100" id="Contact">
-      <h1 class="py-5" style="font-family: 'Black Han Sans','Noto Sans KR', sans-serif;">
-        Contact
-      </h1>
-        <b-row style="min-width:560px;max-width:894px;margin:0 auto;">
-          <!-- 문법 예시 <b-col cols="8" md="auto"> https://bootstrap-vue.org/docs/components/layout#layout-and-grid-system -->
-          Contact
-        </b-row>
-    </div>
-<!-- 
-who is me?
-Skills
-Projects
-FAQ
-contact
- -->
+    <WhoIsMe />
+    <Skills />
+    <Projects />
+    <FAQ />
+    <Contact />
   </div>
 </template>
 
 <script>
+import WhoIsMe from "../components/portfolio/WhoIsMe.vue"
+import Skills from "../components/portfolio/Skills.vue"
+import Projects from "../components/portfolio/Projects.vue"
+import FAQ from "../components/portfolio/FAQ.vue"
+import Contact from "../components/portfolio/Contact.vue"
+
 export default {
+  name: "portfolio",
+  components: {
+    WhoIsMe,Skills,Projects,FAQ,Contact
+  },
   data() {
       return {
         visible: true
@@ -133,6 +28,10 @@ export default {
 }
 </script>
 
+
+export default {
+  name: "App",
+};
 <style>
 h4{
   padding-bottom: 0.6rem;
