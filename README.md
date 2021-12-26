@@ -1,4 +1,4 @@
-# practice
+# portfolioBlog
 
 ## Project setup
 ```
