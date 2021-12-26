@@ -35,5 +35,6 @@ p{
 
 #app{
   font-family: 'Noto Sans KR', sans-serif;
+  min-width: 746px;;
 }
 </style>
