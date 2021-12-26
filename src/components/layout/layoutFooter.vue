@@ -11,4 +11,8 @@ export default {
 </script>
 
 <style>
+.mp-reset{
+  margin: 0px!important;
+  padding: 0px!important;
+}
 </style>

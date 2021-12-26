@@ -33,9 +33,6 @@ export default {
   name: "App",
 };
 <style>
-h4{
-  padding-bottom: 0.6rem;
-}
 #portfolio{
    color:black;
    font-size:16px;
