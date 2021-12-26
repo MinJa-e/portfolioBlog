@@ -67,7 +67,13 @@ Spring Boot
             <img src="@/assets/skills/mysql.png" class="skillsIcon"/>
             <img src="@/assets/skills/oracle.png" class="skillsIcon"/>
             <img src="@/assets/skills/git.png" class="skillsIcon"/>
-            <img src="@/assets/skills/github.png" class="skillsIcon"/>
+            <img src="@/assets/skills/github.png" id="githubIcon" class="skillsIcon"/>
+
+  <b-popover target="githubIcon" triggers="hover" placement="bottom">
+    <template #title>깃허브</template>
+    실험
+    <!--https://bootstrap-vue.org/docs/components/popover 팝오버 참고용-->
+  </b-popover>
 <!--
 mySQL
 Oracle
