@@ -1,8 +1,8 @@
 <template>
-<div>
+<header>
   <b-navbar type="dark" variant="dark" class="d-flex justify-content-between col px-4 shadow-lg" style="height:6vh;min-height:32px;">
     <div style="width:168px;">
-    <b-navbar-brand href="#">logo</b-navbar-brand>
+    <b-navbar-brand href="portfolio">logo</b-navbar-brand>
     </div>
 
     <b-navbar-nav style="font-size:14px;">
@@ -86,7 +86,7 @@
     </b-modal>
     <!--모달 끝-->
   </b-navbar>
-</div>
+</header>
 </template>
 
 
