@@ -10,7 +10,7 @@
         </p>
          <b-button pill variant="danger" class="my-1 text-white shadow" href="portfolio" >포트폴리오 보러가기</b-button><br>
          <b-button pill variant="success" class="my-1 text-white shadow" href="#" >창작물 보러가기</b-button><br>
-         <b-button pill variant="primary" class="my-1 text-white shadow" href="#" >소통 하러가기</b-button>
+         <b-button pill variant="primary" class="my-1 text-white shadow" href="talk" >소통 하러가기</b-button>
       </div>
     </div>
 </template>

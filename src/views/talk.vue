@@ -7,7 +7,7 @@
         <div id="talkMain">
             <div class="text-start border-top pt-3">
                 1 | 이민재 <span style="color:gray">(2012.12.27 17:31)</span>
-<pre class="mt-2 mb-0" style="max-height:6vh;">테스트</pre>
+<pre class="mt-2 mb-0" style="max-height:6vh;white-space: pre-wrap;">테스트</pre>
             </div>
             <b-row class="justify-content-center mt-3 mx-0">
                 <b-col>
@@ -21,7 +21,7 @@
                     max-rows="3"
                     no-resize
                     ></b-form-textarea>
-                    <p class="text-start" style="font-size:14px;">글자 수 : {{text.length}} / 100</p>
+                    <p class="text-start" style="font-size:14px;color:gray;">글자 수 : {{text.length}} / 100</p>
                 </b-col>
                 <b-col cols="auto">
                     <!--스위치 적용이 안 되는데 나중에 해결하고 일단은 체크박스로 진행-->
