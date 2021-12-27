@@ -28,10 +28,6 @@ export default {
 }
 </script>
 
-
-export default {
-  name: "App",
-};
 <style>
 #portfolio{
    color:black;

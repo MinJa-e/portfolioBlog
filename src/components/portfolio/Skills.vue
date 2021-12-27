@@ -1,6 +1,6 @@
 <template>
-    <div class="text-center w-100" id="skills">
-        <h1 class="py-5" style="font-family: 'Black Han Sans','Noto Sans KR', sans-serif;">
+    <div class="text-center w-100 padding-section" id="skills">
+        <h1 class="mp-title" style="font-family: 'Black Han Sans','Noto Sans KR', sans-serif;">
             Skills
         </h1>
         <b-row style="min-width:560px;max-width:894px;margin:0 auto;">
@@ -109,10 +109,10 @@ export default {
     color:black!important;
     background: white!important;
     border-radius: 0px!important;
+    margin-top: 20px!important;
 }
 .skillsArcodianBody{
     border-radius: 0px!important;
-    margin-bottom: 20px!important;
 }
 .skillsIcon{
     height: 72px;

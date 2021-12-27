@@ -1,7 +1,7 @@
 <template>
 
-    <div class="text-center w-100" id="whoIsMe">
-      <h1 class="py-5" style="font-family: 'Black Han Sans','Noto Sans KR', sans-serif;">
+    <div class="text-center w-100 padding-section" id="whoIsMe">
+      <h1 class="mp-title" style="font-family: 'Black Han Sans','Noto Sans KR', sans-serif;">
         Who is me?
       </h1>
 <!-- 
@@ -11,7 +11,7 @@ person-fill
 emoji-laughing 
 웃는 이모티콘
 -->
-        <b-row style="min-width:560px;max-width:894px;margin:0 auto 60px auto ;">
+        <b-row style="min-width:560px;max-width:894px;margin:0 auto;">
           <!-- 문법 예시 <b-col cols="8" md="auto"> https://bootstrap-vue.org/docs/components/layout#layout-and-grid-system -->
           <b-row style="margin-bottom: 12px!important;"><!--사진12 40-->
             <b-col cols="3"><img src="@/assets/증명사진흰정사각형.jpg" class="rounded-circle w-100 m-auto" style="
@@ -31,12 +31,12 @@ emoji-laughing
             </b-row>
             <b-row class="pb-4 justify-content-md-center"><!--프로필 둘째 줄-->
               <b-col>
-                <h4 class="fw-bold"><b-icon icon="emoji-laughing" style="width: 24px; height: 24px;"></b-icon>이메일</h4>
+                <h4 class="fw-bold"><b-icon icon="envelope-fill" style="width: 24px; height: 24px;"></b-icon>이메일</h4>
                 <div></div>
                 <p>leeniesta@naver.com</p>
               </b-col>
               <b-col>
-                <h4 class="fw-bold"><b-icon icon="emoji-laughing" style="width: 24px; height: 24px;"></b-icon>거주지</h4>
+                <h4 class="fw-bold"><b-icon icon="geo-alt-fill" style="width: 24px; height: 24px;"></b-icon>거주지</h4>
                 <div></div>
                 <p>부산광역시 해운대구 반여1동</p>
               </b-col>
@@ -74,7 +74,7 @@ emoji-laughing
 
 <script>
 export default {
-  name: "a"
+  name: "WhoisMe"
   }
 </script>
 
