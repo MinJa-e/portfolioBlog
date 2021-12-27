@@ -19,7 +19,7 @@ emoji-laughing
             <b-col>
             <b-row class="pb-4 justify-content-center"><!--프로필 첫째 줄-->
               <b-col>
-                <h4 class="fw-bold meKey"><b-icon icon="emoji-laughing" style="width: 24px; height: 24px;"></b-icon>이름</h4>
+                <h4 class="fw-bold"><b-icon icon="emoji-laughing" style="width: 24px; height: 24px;"></b-icon>이름</h4>
                 <div></div>
                 <p>이민재</p>
               </b-col>

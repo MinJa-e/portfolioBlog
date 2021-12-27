@@ -10,7 +10,7 @@
 
         <b-nav-item href="portfolio" class="mj-nav-item-margin">Portfolio</b-nav-item>
 
-        <b-nav-item href="#" class="mj-nav-item-margin">Projects</b-nav-item>
+        <b-nav-item href="portfolio" class="mj-nav-item-margin">Projects</b-nav-item>
 
         <!-- Navbar dropdowns -->
         <b-nav-item-dropdown text="ETC" right class="mj-nav-item-margin">
@@ -20,7 +20,7 @@
         </b-nav-item-dropdown>
 
         <b-nav-item-dropdown text="Guest" right class="mj-nav-item-margin">
-          <b-dropdown-item href="#">Talk</b-dropdown-item>
+          <b-dropdown-item href="talk">Talk</b-dropdown-item>
         </b-nav-item-dropdown>
     </b-navbar-nav>
 
