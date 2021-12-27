@@ -14,9 +14,9 @@
 
         <!-- Navbar dropdowns -->
         <b-nav-item-dropdown text="ETC" right class="mj-nav-item-margin">
-          <b-dropdown-item href="#">Photo</b-dropdown-item>
-          <b-dropdown-item href="#">Film</b-dropdown-item>
-          <b-dropdown-item href="#">Draw</b-dropdown-item>
+          <b-dropdown-item href="error">Photo</b-dropdown-item>
+          <b-dropdown-item href="error">Film</b-dropdown-item>
+          <b-dropdown-item href="error">Draw</b-dropdown-item>
         </b-nav-item-dropdown>
 
         <b-nav-item-dropdown text="Guest" right class="mj-nav-item-margin">
@@ -82,7 +82,7 @@
         </b-form-group>
         </b-form-group>
       </form>
-      <a href="#">간단 회원가입</a>
+      <a href="error" style="font-size:12px;">간단 회원가입</a>
     </b-modal>
     <!--모달 끝-->
   </b-navbar>

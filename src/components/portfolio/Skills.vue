@@ -108,6 +108,7 @@ export default {
 .skillsArcodianHeader{
     color:black!important;
     background: white!important;
+    border-color: white!important;
     border-radius: 0px!important;
     margin-top: 20px!important;
 }
