@@ -10,7 +10,7 @@
 
         <b-nav-item href="portfolio" class="mj-nav-item-margin">Portfolio</b-nav-item>
 
-        <b-nav-item href="portfolio" class="mj-nav-item-margin">Projects</b-nav-item>
+        <b-nav-item href="portfolio#Projects" class="mj-nav-item-margin">Projects</b-nav-item>
 
         <!-- Navbar dropdowns -->
         <b-nav-item-dropdown text="ETC" right class="mj-nav-item-margin">
@@ -134,6 +134,12 @@ export default {
 
 
 <style>
+[target="_self"]:hover{
+/*navvar메뉴 탭*/
+  color:white!important;
+  border:0px black transparent!important;
+  outline:none!important;
+}
 .mj-nav-item-margin{
   margin-right: 12px;
 }

@@ -70,17 +70,17 @@ export default {
   padding: 0px!important;
 }
 
-.nav-link{
+[role="presentation"] > .nav-link{
   color:gray!important;
   
 }
 
 /*헤더바에 간섭생기니까 나중에 클래스명 바꾸기*/
-.nav-link:hover{
+[role="presentation"] > .nav-link:hover{
   color:black!important;
 }
 
-.nav-link.active{
+[role="presentation"] > .nav-link.active{
   background: #6c757d!important;
   color:white!important;
   

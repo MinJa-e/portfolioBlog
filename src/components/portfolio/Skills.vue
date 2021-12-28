@@ -118,6 +118,12 @@ export default {
     border-radius: .25rem!important;
     box-shadow: rgb(0 0 0 / 20%) 5px 5px 20px 0px!important;
 }
+.skillsArcodian:hover{
+    box-shadow: rgb(0 0 0 / 20%) 5px 5px 20px 6px!important;
+}
+button[aria-expanded]:focus{
+    box-shadow: none!important;
+}
 .skillsArcodianHeader{
     width: 100%!important;
     color:black!important;

@@ -1,11 +1,14 @@
 <template>
 <b-row>
         <!--왼-->
-        <b-col cols="5" class="align-self-center">
+        <b-col cols="5" class="align-self-center p-0 position-relative">
            <img src="@/assets/projectImage/a.jpg" class="projectImage"/>
+           <a href="#" class="projectImageHover">
+             <p>a</p>
+           </a>
         </b-col>
         <!--오른-->
-        <b-col>
+        <b-col class="ms-4 my-auto">
           <b-row>
             <b-col cols="2">
           <b>소개</b>
@@ -48,18 +51,10 @@
           </b-row>
           <b-row>
             <b-col cols="2">
-          <b>깃허브</b>
+          <b>링크</b>
             </b-col>
-            <b-col>
-              <p>https://github.com/codeInJ</p>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col cols="2">
-          <b>주소</b>
-            </b-col>
-            <b-col>
-              <p>http://leeniesta.cafe24.com/</p>
+            <b-col class="d-flex justify-content-center">
+  <b-button size="sm" variant="secondary">코드 상세보기</b-button><span style="width:4%;"></span><b-button size="sm" variant="secondary">구경 가기</b-button>
             </b-col>
           </b-row>
         </b-col>

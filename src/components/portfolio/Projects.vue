@@ -71,5 +71,24 @@ export default {
 .tab-pane > div{
   padding-top: 32px!important;
 }
-
+.projectImageHover{/* 클래스가 실제로 존재하는 요소는 컴포넌트 파일 안에 들어가야 함 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  box-shadow: rgb(0 0 0 / 40%) 5px 5px 20px 6px;
+}
+.projectImageHover:hover{/* 클래스가 실제로 존재하는 요소는 컴포넌트 파일 안에 들어가야 함 */
+  opacity: 0.7;
+  color:white;
+}
+.projectImageHover > *{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translateX(-50%) translateY(-50%);
+}
 </style>

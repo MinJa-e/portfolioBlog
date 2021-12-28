@@ -29,7 +29,7 @@ html{
 
 p{
   font-size: 16px;
-  margin-bottom: 0.5rem!important;
+  margin-bottom: 0.7rem!important;
 }
 
 #app{

@@ -13,8 +13,8 @@ emoji-laughing
 -->
         <b-row style="min-width:560px;max-width:894px;margin:0 auto;">
           <!-- 문법 예시 <b-col cols="8" md="auto"> https://bootstrap-vue.org/docs/components/layout#layout-and-grid-system -->
-          <b-row style="margin-bottom: 12px!important;"><!--사진12 40-->
-            <b-col cols="3"><img src="@/assets/증명사진흰정사각형.jpg" class="rounded-circle w-100 m-auto" style="
+          <b-row style="margin-bottom: 32px!important;"><!--사진12 40-->
+            <b-col cols="3"><img src="@/assets/증명사진흰정사각형.jpg" id="whoIsMePhoto" class="rounded-circle w-100 m-auto" style="
             border: 2.9px solid hsl(0deg 0% 0% / 30%);box-shadow: rgb(0 0 0 / 65%) 0px 0px 16px 0px;min-width:112px;max-width:168px;"></b-col>
             <b-col>
             <b-row class="pb-4 justify-content-center"><!--프로필 첫째 줄-->
@@ -83,5 +83,8 @@ export default {
 #whoIsMeIntro{
   padding: 0px!important;
   box-shadow: rgb(0 0 0 / 20%) 5px 5px 20px 0px;
+}
+#whoIsMePhoto:hover{
+  box-shadow: rgb(0 0 0 / 65%) 0px 0px 16px 6px!important;
 }
 </style>
