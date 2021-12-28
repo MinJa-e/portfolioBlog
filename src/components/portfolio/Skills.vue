@@ -6,7 +6,7 @@
         <b-row style="min-width:560px;max-width:894px;margin:0 auto;">
 
 
-
+<div class="skillsArcodian">
     <b-button
     class="skillsArcodianHeader rounded-top"
       :class="frontendArcodian ? null : 'collapsed'"
@@ -32,7 +32,9 @@ VUE
 -->
         </b-card>
     </b-collapse>
+</div>
 
+<div class="skillsArcodian">
     <b-button
     class="skillsArcodianHeader rounded-top"
       :class="backendArcodian ? null : 'collapsed'"
@@ -52,7 +54,9 @@ Spring Boot
 -->
       </b-card>
     </b-collapse>
+</div>
 
+<div class="skillsArcodian">
     <b-button
     class="skillsArcodianHeader rounded-top"
       :class="othersArcodian ? null : 'collapsed'"
@@ -83,6 +87,7 @@ Github
 -->
       </b-card>
     </b-collapse>
+</div>
         </b-row>
     </div>
 </template>
@@ -105,17 +110,28 @@ export default {
 #backEnd{
     background:lightcoral;
 }
+.skillsArcodian{
+    margin-top: 20px!important;
+    padding: 0px!important;
+    background: white!important;
+    border-color: white!important;
+    border-radius: .25rem!important;
+    box-shadow: rgb(0 0 0 / 20%) 5px 5px 20px 0px!important;
+}
 .skillsArcodianHeader{
+    width: 100%!important;
     color:black!important;
     background: white!important;
     border-color: white!important;
     border-radius: 0px!important;
-    margin-top: 20px!important;
 }
 .skillsArcodianBody{
     border-radius: 0px!important;
 }
 .skillsIcon{
     height: 72px;
+}
+.popover{
+  /* border:0px!important; */
 }
 </style>

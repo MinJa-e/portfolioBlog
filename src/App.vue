@@ -32,7 +32,11 @@ p{
 }
 
 #app{
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Sans KR'!important;
   min-width: 746px;;
+}
+pre{
+  margin: 0!important;
+  white-space: pre-wrap;
 }
 </style>

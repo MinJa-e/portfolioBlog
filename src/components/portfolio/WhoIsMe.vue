@@ -53,7 +53,7 @@ emoji-laughing
             </b-row>
             </b-col>
           </b-row>
-          <b-row><!--간략소개-->
+          <b-row id="whoIsMeIntro"><!--간략소개-->
   <!-- Using value -->
   <b-button v-b-toggle="'collapse-2'">간략소개</b-button>
 
@@ -80,7 +80,8 @@ export default {
 
 
 <style>
-.meKey{
-  padding-bottom: 0.6rem;
+#whoIsMeIntro{
+  padding: 0px!important;
+  box-shadow: rgb(0 0 0 / 20%) 5px 5px 20px 0px;
 }
 </style>

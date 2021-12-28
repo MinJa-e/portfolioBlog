@@ -6,40 +6,41 @@
         <b-row class="justify-content-center" style="min-width:0px;max-width:400px;margin:0 auto;">
           <!--1-->
           <b-row class="justify-content-center">
-          <b-col cols="auto">
+          <b-col cols="2" class="text-end">
             <a href="https://www.instagram.com/minjae._.95/">
             <b-icon icon="instagram" class="contactIcon"></b-icon>
             </a>
           </b-col>
-          <b-col cols="auto">
-            <h4>- @minjae._.95</h4>
-          </b-col>
-          </b-row>
-          <!--2-->
-          <b-row class="justify-content-center">
-          <b-col cols="auto">
-            <img src="@/assets/headerContact/kakao.png" class="contactIcon"/>
-          </b-col>
-          <b-col cols="auto">
+          <b-col cols="6" class="text-start">
             <h4>- @minjae._.95</h4>
           </b-col>
           </b-row>
           <!--3-->
           <b-row class="justify-content-center">
-          <b-col cols="auto">
+          <b-col cols="2" class="text-end">
             <b-icon icon="github" class="contactIcon"></b-icon>
           </b-col>
-          <b-col cols="auto">
+          <b-col cols="6" class="text-start">
             <h4>- @minjae._.95</h4>
           </b-col>
           </b-row>
           <!--4-->
           <b-row class="justify-content-center">
-          <b-col cols="auto">
+          <b-col cols="2" class="text-end">
             <img src="@/assets/headerContact/tistory.svg" class="contactIcon"/>
           </b-col>
-          <b-col cols="auto">
+          <b-col cols="6" class="text-start">
             <h4>- @minjae._.95</h4>
+          </b-col>
+          </b-row>
+          <!--2-->
+          <b-row class="justify-content-center">
+          <b-col cols="2" class="text-end">
+            <img src="@/assets/headerContact/kakao.png" class="contactIcon"/>
+          </b-col>
+          <b-col cols="6" class="text-start">
+            
+  <b-button variant="success">오픈 채팅으로 연결</b-button>
           </b-col>
           </b-row>
         </b-row>
