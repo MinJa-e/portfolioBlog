@@ -91,4 +91,7 @@ pre{
   font-size: 16px!important;
   color: rgb(0 0 0 / 60%);
   }
+.tab-pane > p{
+  margin:0px!important;
+}
 </style>

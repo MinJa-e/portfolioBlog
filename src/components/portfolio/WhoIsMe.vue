@@ -24,7 +24,7 @@ emoji-laughing
                 <p>이민재</p>
               </b-col>
               <b-col>
-                <h4 class="fw-bold"><b-icon icon="emoji-laughing" style="width: 24px; height: 24px;"></b-icon>생년월일</h4>
+                <h4 class="fw-bold"><b-icon icon="calendar-fill" style="width: 24px; height: 24px;"></b-icon>생년월일</h4>
                 <div></div>
                 <p>1995.10.14</p>
               </b-col>

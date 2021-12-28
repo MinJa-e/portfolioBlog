@@ -28,7 +28,8 @@ html{
 }
 
 p{
-  font-size: 16px;;
+  font-size: 16px;
+  margin-bottom: 0.5rem!important;
 }
 
 #app{

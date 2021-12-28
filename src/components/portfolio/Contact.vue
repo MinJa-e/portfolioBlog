@@ -38,9 +38,8 @@
           <b-col cols="2" class="text-end">
             <img src="@/assets/headerContact/kakao.png" class="contactIcon"/>
           </b-col>
-          <b-col cols="6" class="text-start">
-            
-  <b-button variant="success">오픈 채팅으로 연결</b-button>
+          <b-col cols="6" class="">
+  <b-button variant="success" href="https://open.kakao.com/o/sJTVzVQd">오픈 채팅으로 연결</b-button>
           </b-col>
           </b-row>
         </b-row>
