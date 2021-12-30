@@ -1,0 +1,2 @@
+<package.json>
+proxy -> 뷰와 스프링부트 연동 시에 크로스오리진 문제 해결 위해서 사용 ( 참고 : https://7942yongdae.tistory.com/136?category=992530 ),
